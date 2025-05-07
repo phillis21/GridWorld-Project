@@ -60,6 +60,6 @@ env = GridWorldEnv(grid)
 
 env.render()
 
-env.step('right')
-env.step('down')
+env.move('right',grid)
+env.move('down',grid)
 env.render()
